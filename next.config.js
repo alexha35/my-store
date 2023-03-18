@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
-}
+	experimental: {
+		appDir: true,
+		fontLoaders: [{ loader: '@next/font/google', options: { subsets: ['latin'] } }],
+	},
+	images: {
+		domains: ['fakestoreapi.com'],
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

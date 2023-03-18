@@ -1,0 +1,95 @@
+.filter_container {
+	position: sticky;
+	top: 5vh;
+	left: 0;
+	height: 75vh;
+	background-color: var(--light-grey);
+	padding: 2rem 1rem;
+	border-radius: var(--base-br);
+}
+
+.filter_heading_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.filter_heading {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 1rem;
+}
+
+.chevron {
+	display: none;
+	cursor: pointer;
+	height: min-content;
+	justify-content: center;
+	align-items: center;
+	transition: 0.25s ease-in-out transform;
+}
+
+.filter_title {
+	margin-block-end: 0.5rem;
+	color: var(--text-color);
+}
+
+.filter {
+	margin-bottom: 1rem;
+}
+
+.filter_selection {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.checkbox_container {
+	display: flex;
+	gap: 0.5rem;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.text_container {
+	display: flex;
+}
+
+.input_text {
+	width: 50px;
+	text-align: center;
+}
+
+.input_text:first-of-type {
+	margin-right: 0.5rem;
+}
+
+.input_text:last-of-type {
+	margin-left: 0.5rem;
+}
+
+.stars {
+	display: flex;
+	align-items: centers;
+}
+
+@media only screen and (max-width: 768px) {
+	.filter_container {
+		position: initial;
+		height: auto;
+	}
+
+	.chevron {
+		display: block;
+		cursor: pointer;
+	}
+
+	.filter_heading {
+		margin-bottom: 0rem;
+	}
+
+	.filter_heading_container {
+		align-items: center;
+		vertical-align: middle;
+	}
+}

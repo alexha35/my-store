@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700&family=Parisienne&family=Roboto:wght@400;500;700&display=swap'); */
+@import url('../styles/buttons.css');
+@import url('../styles/typography.css');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+	/* font-family: var(--font-roboto); */
+	--primary-color: #2196f3;
+	--secondary-color: #ffc107;
+	--accent-color: #4caf50;
+	--bg: #fafafa;
+	--text-color: #333;
+	--grey: rgb(134, 130, 130);
+	--light-grey: rgb(202, 199, 199);
+	--base-br: 12px;
+	--container-br: 8px;
+	--box-shadow: 6px 4px 6px 6px rgba(192, 187, 187, 0.3);
+
+	--headline-font-size: 48px;
+	--subheadline-font-size: 36px;
+	--title-font-size: 18px;
+	--body-font-size: 14px;
+	--button-font-size: 16px;
+	--nav-font-size: 18px;
+
+	--headline-font-weight: 700;
+	--subheadline-font-weight: 500;
+	--title-font-weight: 500;
+	--body-font-weight: 400;
+	--button-font-weight: 700;
+	--nav-font-weight: 700;
+
+	--container-padding: 2rem 4rem;
+	--max-width: 1440px;
+}
+
+@media only screen and (max-width: 768px) {
+	:root {
+		--headline-font-size: 32px;
+		--subheadline-font-size: 20px;
+		--title-font-size: 16px;
+		--body-font-size: 14px;
+		--button-font-size: 14px;
+		--nav-font-size: 14px;
+
+		--container-padding: 1rem;
+	}
+}
+
+a {
+	color: inherit;
+	border: 0;
+	outline: 0;
+	text-decoration: none;
+}
+
+a:hover {
+	border: 0;
+	outline: 0;
+}
+
+.base_container {
+	padding: var(--container-padding);
+	max-width: var(--max-width);
+	margin: 0 auto;
+}

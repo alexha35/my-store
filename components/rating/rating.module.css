@@ -1,0 +1,19 @@
+.rating {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.rating_container {
+	display: flex;
+	width: min-content;
+	position: relative;
+}
+
+.rating_bar {
+	position: absolute;
+	left: 0;
+	height: 100%;
+	background-color: var(--accent-color);
+	z-index: -1;
+}

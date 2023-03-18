@@ -1,0 +1,12 @@
+#https://fakestoreapi.com/docs 
+
+GET https://fakestoreapi.com/products 
+
+### 
+GET https://fakestoreapi.com/products/1 
+
+### 
+GET https://fakestoreapi.com/products/categories 
+
+### 
+GET https://fakestoreapi.com/carts

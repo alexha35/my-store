@@ -1,0 +1,65 @@
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+}
+
+.image_container {
+	position: relative;
+	height: 50vh;
+	width: 100%;
+}
+
+.info_container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.quantity_container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.quantity_input_container {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.button {
+	cursor: pointer;
+}
+
+.cta {
+	max-width: 250px;
+}
+
+.item_card {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.bottom_card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+@media only screen and (max-width: 375px) {
+	.container {
+		grid-template-columns: 1fr;
+		grid-template-rows: auto;
+	}
+
+	.image_container {
+		height: 25vh;
+	}
+
+	.cta {
+		max-width: initial;
+	}
+}

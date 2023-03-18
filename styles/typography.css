@@ -1,0 +1,29 @@
+.headline {
+	font-size: var(--headline-font-size);
+	font-weight: var(--headline-font-weight);
+	color: var(--text-color);
+}
+
+.subheadline {
+	font-size: var(--subheadline-font-size);
+	font-weight: var(--subheadline-font-weight);
+	color: var(--text-color);
+}
+
+.title {
+	font-size: var(--title-font-size);
+	font-weight: var(--title-font-weight);
+	color: var(--text-color);
+}
+
+.body {
+	font-size: var(--body-font-size);
+	font-weight: var(--body-font-weight);
+	color: var(--text-color);
+}
+
+.nav-typography {
+	font-size: var(--nav-font-size);
+	font-weight: var(--nav-font-weight);
+	color: var(--text-color);
+}
