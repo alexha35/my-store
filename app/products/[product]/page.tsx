@@ -32,7 +32,7 @@ export default async function ProductID({ params }: { params: Params }) {
 			<div className={styles.info_container}>
 				<ProductInfo product={data} config={{ title: { class: 'headline' } }} />
 
-				<Carousel>
+				{/* <Carousel>
 					{productsByCategory.map((item) => (
 						// <div className={styles.item_card} key={item.id} href={`/products/${item.id}`}>
 						<div className={styles.item_card} key={item.id}>
@@ -43,7 +43,7 @@ export default async function ProductID({ params }: { params: Params }) {
 							</div>
 						</div>
 					))}
-				</Carousel>
+				</Carousel> */}
 			</div>
 		</div>
 	);
