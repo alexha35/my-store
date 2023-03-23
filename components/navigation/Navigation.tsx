@@ -26,7 +26,7 @@ export default function Navigation() {
 					</Link>
 					<ul className={`${styles.list} ${open ? styles.active : ''}`}>
 						<li className={`nav-typography ${styles.item}`} onClick={() => setOpen(false)}>
-							<Link href={'/deals'}>Deals</Link>
+							<Link href={'/#'}>Deals</Link>
 						</li>
 						<li className={`nav-typography ${styles.item}`} onClick={() => setOpen(false)}>
 							<Link href={'/products'}>Products</Link>
